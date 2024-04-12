@@ -13,15 +13,16 @@
 # Put your number here: 0
 ################################
 def read_input():
-    return open('input_0_cap1.txt','r')
+    return open('input_0_cap1.txt','r') # Reads the file that we have put
 
 def calculate_score(textfile):
-    store= {'A X': 3, 'A Y': 4, 'A Z': 8, 'B X': 1, 'B Y': 5, 'B Z': 9, 'C X': 2, 'C Y': 6, 'C Z': 7} 
+    store= {'A X': 3, 'A Y': 4, 'A Z': 8, 'B X': 1, 'B Y': 5, 'B Z': 9, 'C X': 2, 'C Y': 6, 'C Z': 7} # It is a dict that stores specific key for specific values
     score = 0
     for text in textfile:
         value = text.strip()
         if value in store:
             score += store[value]
-    print("total value: ",score)
+    print("total value: ",score) 
 
-calculate_score(read_input())
+calculate_score(read_input()) # Gives us the total score of the input file
+
