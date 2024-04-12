@@ -9,7 +9,7 @@
 # https://youtu.be/Uh2ebFW8OYM?si=jDO41HwoF_gv2zbm
 ################################
 # SOLUTION
-# Your Solution Score: 50054
+# Your Solution Score: 46548
 # Put your number here: 0
 ################################
 def read_input():
